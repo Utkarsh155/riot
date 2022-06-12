@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: right;
+}
+.container
+{
+    padding: 3rem 2rem;
+    /* min-height: 500px; */
+    position: relative;
+    top: 100px;
+    right: 70px;
+    width: 350px;
+    background-color: white;
+}
+.mail
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #efefef;
+    border-radius: 3px;
+    color: #2F2F2F;
+}
+.other
+{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.buttons
+{
+    text-align: center;
+    margin-top: 20px;
+}
+::placeholder
+{
+    color: #2F2F2F;
+    font-size: 16px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.already
+{
+    text-align: center;
+    display: block;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.already:hover
+{
+    color: blue;
+    transition: 1s;
+}
+
+button
+{
+    padding: 10px 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+.heading
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+.face
+{
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+}
+.google
+{
+    background-color: #efefef;
+    /* color: blue; */
+    margin-right: 10px;
+
+}
+.apple
+{
+    background-color: black;
+    color: white;
+}
