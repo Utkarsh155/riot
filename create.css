@@ -11,8 +11,33 @@ body
     display: flex;
     justify-content: right;
 }
+.btncreate
+{
+    position:absolute;
+    left: 20%;
+    top: 43%;
+}
+.CreateBtn{
+    padding: 2rem 8rem;
+    font-size: 22px;
+    color: white;
+    background-color: transparent;
+    border: 4px solid rgb(202, 202, 202);
+    border-radius: none;
+    /* border: none; */
+    letter-spacing: 2px;
+    font-weight: 600;
+    outline: none;
+}
+.CreateBtn:hover
+{
+    background-color: rgb(202, 202, 202);
+    color: #2F2F2F;
+    transition: 1s;
+}
 .container
 {
+    visibility: hidden;
     padding: 3rem 2rem;
     /* min-height: 500px; */
     position: relative;
